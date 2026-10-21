@@ -1,0 +1,12 @@
+# AST Diagnostic Engine — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Tree-sitter AST parsing (must use exact version pair)
+tree-sitter==0.21.3
+tree-sitter-languages>=1.10.2
+
+# HTTP client for Ollama REST API
+requests>=2.31.0
+
+# Terminal UI
+rich>=13.7.0
